@@ -1,0 +1,201 @@
+/********** TAG SELECTORS **********/
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #606060FF;
+  /* color: #f1ab00; */
+  color: #D6ED17FF;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  width: 25%;
+  margin: auto;
+  color: #606060FF;
+}
+
+h3 {
+  font-size: 1.3rem;
+  padding-top: 2%;
+  color: #606060FF;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  height: auto;
+  width: 100%;
+  background-color: #606060FF;
+  border-bottom: 1px solid;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #30475e;
+}
+
+section {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+span {
+  background-color: #f1f1f1;
+  font-family: monospace;
+  font-size: 1.2em;
+  color: red;
+}
+
+/* media query for tablet and mobile phones */
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+}
+
+/********** NAVIGATION BAR CLASSES **********/
+.nav-link {
+  margin: 0 0 0 0;
+  text-decoration: none;
+  color: #D6ED17FF;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+/********** WELCOME SECTION CLASSES **********/
+.welcome-section {
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.intro-img {
+  width: 20%;
+  padding-top: 40px;
+}
+
+/********** ABOUT SECTION CLASSES **********/
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-icon {
+  border-radius: 50%;
+  width: 15%;
+  margin: 50px auto 20px;
+}
+
+.my-bio {
+  width: 45%;
+  margin: auto;
+  padding-top: 40px;
+  line-height: 1.8;
+}
+
+/********** SKILLS SECTION CLASSES **********/
+.top-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 45%;
+  margin: 2% auto 0;
+}
+
+.skill-img {
+  width: 50%;
+  margin: 13% auto 0;
+}
+
+.skill-text {
+  margin: 7% auto;
+}
+
+.language-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 45%;
+  margin: 2% auto 0;
+}
+
+/********** TESTIMONIALS SECTION CLASSES **********/
+.carousel-item {
+  padding: 5% 27%;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.testimonial-image {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+.external-link {
+  color: #30475e;
+  font-size: 0.8rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+/********** FOOTER CLASSES **********/
+
+.contact-title {
+  color: #D6ED17FF;
+  padding-top: 3%;
+}
+
+.company-icon {
+  height: 180px;
+  margin: 50px auto 20px;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.footer-link {
+  color: #D6ED17FF;
+  padding: 16px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.copyright {
+  margin: 0;
+  padding-bottom: 40px;
+  color: #D6ED17FF;
+  font-size: 0.8rem;
+}
