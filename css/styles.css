@@ -26,8 +26,15 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
-  padding-top: 2%;
+  padding-top: 15%;
   color: #606060FF;
+}
+
+@media (min-width: 900px) {
+  h3 {
+    font-size: 1.5rem;
+    padding-top: 5%
+  }
 }
 
 nav {
