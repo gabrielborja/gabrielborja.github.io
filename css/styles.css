@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  width: 25%;
+  width: 100%;
   margin: auto;
   color: #606060FF;
 }
@@ -59,13 +59,6 @@ span {
   color: red;
 }
 
-/* media query for tablet and mobile phones */
-@media (max-width: 1028px) {
-  .title {
-    text-align: center;
-  }
-}
-
 /********** NAVIGATION BAR CLASSES **********/
 .nav-link {
   margin: 0 0 0 0;
@@ -79,8 +72,8 @@ span {
 
 /********** WELCOME SECTION CLASSES **********/
 .welcome-section {
-  height: 100vh;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .intro-img {
@@ -110,9 +103,18 @@ span {
 /********** SKILLS SECTION CLASSES **********/
 .top-skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   width: 45%;
   margin: 2% auto 0;
+}
+
+@media (min-width: 900px) {
+  .top-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 45%;
+    maring: 2% auto 0;
+    }
 }
 
 .skill-img {
@@ -126,9 +128,18 @@ span {
 
 .language-skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   width: 45%;
   margin: 2% auto 0;
+}
+
+@media (min-width: 900px) {
+  .language-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 45%;
+    maring: 2% auto 0;
+    }
 }
 
 /********** TESTIMONIALS SECTION CLASSES **********/
